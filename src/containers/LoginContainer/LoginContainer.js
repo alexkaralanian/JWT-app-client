@@ -11,6 +11,8 @@ import {
   resetError
 } from "../../reducers/auth-reducer";
 
+import { url } from "../../config";
+
 class LoginContainer extends React.Component {
   constructor(props) {
     super(props);
@@ -56,7 +58,7 @@ class LoginContainer extends React.Component {
 
   login(email, password) {
     axios
-      .post(`/api/auth/login`, { email, password })
+      .post(`${url}/api/auth/login`, { email, password })
       .then(response => {
         if (response.data.error) {
           console.error("LOGIN FAILURE");

@@ -9,6 +9,7 @@ import {
   fetchAndHandleAuthedUser,
   resetError
 } from "../../reducers/auth-reducer";
+import { url } from "../../config";
 
 class SignupContainer extends React.Component {
   constructor(props) {
@@ -34,7 +35,7 @@ class SignupContainer extends React.Component {
 
   signup(user) {
     axios
-      .post("/api/auth/signup", user)
+      .post(`${url}/api/auth/signup`, user)
       .then(response => {
         if (response.data.error) {
           console.error("SIGNUP FAILURE");
