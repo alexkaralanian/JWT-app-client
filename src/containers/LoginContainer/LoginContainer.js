@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import axios from "axios";
-
+import hello from "hellojs/dist/hello.all";
 import React from "react";
 import Login from "../../components/LoginPage/Login";
 import {
@@ -10,8 +10,6 @@ import {
   fetchAndHandleAuthedUser,
   resetError
 } from "../../reducers/auth-reducer";
-
-const hello = require("hellojs/dist/hello.all.js");
 
 class LoginContainer extends React.Component {
   constructor(props) {

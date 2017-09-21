@@ -11,41 +11,39 @@ ShallowWrapper {
   "node": <div
     className="centeredContainer"
 >
-    <h1
-        className="largeHeader"
+    <div
+        className="innerContainer"
     >
-        JWT
-    </h1>
-    <h3
-        className="subHeader"
-    >
-        Example React/Redux app using
-    </h3>
-    <h3
-        className="subHeader"
-    >
-        JSON Web Token authentication
-    </h3>
+        <h1
+            className="largeHeader"
+        >
+            JWT
+        </h1>
+        <h3
+            className="subHeader"
+        >
+            Example React Redux App Using JSON Web Token Authentication
+        </h3>
+    </div>
 </div>,
   "nodes": Array [
     <div
       className="centeredContainer"
 >
-      <h1
-            className="largeHeader"
+      <div
+            className="innerContainer"
       >
-            JWT
-      </h1>
-      <h3
-            className="subHeader"
-      >
-            Example React/Redux app using
-      </h3>
-      <h3
-            className="subHeader"
-      >
-            JSON Web Token authentication
-      </h3>
+            <h1
+                  className="largeHeader"
+            >
+                  JWT
+            </h1>
+            <h3
+                  className="subHeader"
+            >
+                  Example React Redux App Using JSON Web Token Authentication
+            </h3>
+      </div>
 </div>,
   ],
   "options": Object {},
@@ -85,41 +83,39 @@ ShallowWrapper {
         "_currentElement": <div
           className="centeredContainer"
 >
-          <h1
-                    className="largeHeader"
+          <div
+                    className="innerContainer"
           >
-                    JWT
-          </h1>
-          <h3
-                    className="subHeader"
-          >
-                    Example React/Redux app using
-          </h3>
-          <h3
-                    className="subHeader"
-          >
-                    JSON Web Token authentication
-          </h3>
+                    <h1
+                              className="largeHeader"
+                    >
+                              JWT
+                    </h1>
+                    <h3
+                              className="subHeader"
+                    >
+                              Example React Redux App Using JSON Web Token Authentication
+                    </h3>
+          </div>
 </div>,
         "_debugID": 8,
         "_renderedOutput": <div
           className="centeredContainer"
 >
-          <h1
-                    className="largeHeader"
+          <div
+                    className="innerContainer"
           >
-                    JWT
-          </h1>
-          <h3
-                    className="subHeader"
-          >
-                    Example React/Redux app using
-          </h3>
-          <h3
-                    className="subHeader"
-          >
-                    JSON Web Token authentication
-          </h3>
+                    <h1
+                              className="largeHeader"
+                    >
+                              JWT
+                    </h1>
+                    <h3
+                              className="subHeader"
+                    >
+                              Example React Redux App Using JSON Web Token Authentication
+                    </h3>
+          </div>
 </div>,
       },
       "_renderedNodeType": 0,

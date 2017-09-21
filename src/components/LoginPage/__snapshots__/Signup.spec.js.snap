@@ -9,181 +9,297 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <div
-    className="container"
+    className="container "
 >
-    <h2
-        className="header"
-    >
-        SIGNUP
-    </h2>
-    <form
-        id="loginform"
-        onSubmit={[Function]}
+    <div
+        className="centeredContainer"
     >
         <div
-            className="form-group"
-        >
-            <input
-                className="form-control"
-                name="firstName"
-                onChange={[Function]}
-                placeholder="First Name"
-                type="text"
-                value={undefined}
-            />
-        </div>
-        <div
-            className="form-group"
-        >
-            <input
-                className="form-control"
-                name="lastName"
-                onChange={[Function]}
-                placeholder="Last Name"
-                type="text"
-                value={undefined}
-            />
-        </div>
-        <div
-            className="form-group"
-        >
-            <input
-                className="form-control"
-                name="email"
-                onChange={[Function]}
-                placeholder="Email"
-                type="text"
-                value=""
-            />
-        </div>
-        <div
-            className="form-group"
-        >
-            <input
-                className="form-control"
-                name="password"
-                onChange={[Function]}
-                placeholder="Password"
-                type="password"
-                value=""
-            />
-        </div>
-        <div
-            className="buttonGroup"
+            className="borderBox "
         >
             <div
-                className="form-group buttonGroup"
+                className="loginFormHeader"
             >
-                <input
-                    className="btn btn-primary"
-                    type="submit"
-                    value="Signup"
-                />
+                <div
+                    className="loginIcon"
+                >
+                    <i
+                        className="fa fa-shield fa-5x"
+                    />
+                </div>
             </div>
-        </div>
-    </form>
-    <div>
-        <p
-            className="signupRedirect"
-        >
-            <Link
-                replace={false}
-                to="/login"
+            <form
+                id="loginform"
+                onSubmit={[Function]}
             >
-                Have an account? Login Here
-            </Link>
-        </p>
+                <div
+                    className="form-group"
+                >
+                    <div
+                        className="input-group"
+                    >
+                        <div
+                            className="input-group-addon"
+                        >
+                            <i
+                                className="fa fa-user"
+                            />
+                        </div>
+                        <input
+                            className="form-control"
+                            name="firstName"
+                            onChange={[Function]}
+                            placeholder="First Name"
+                            type="text"
+                            value={undefined}
+                        />
+                    </div>
+                </div>
+                <div
+                    className="form-group"
+                >
+                    <div
+                        className="input-group"
+                    >
+                        <div
+                            className="input-group-addon"
+                        >
+                            <i
+                                className="fa fa-user"
+                            />
+                        </div>
+                        <input
+                            className="form-control"
+                            name="lastName"
+                            onChange={[Function]}
+                            placeholder="Last Name"
+                            type="text"
+                            value={undefined}
+                        />
+                    </div>
+                </div>
+                <div
+                    className="form-group"
+                >
+                    <div
+                        className="input-group"
+                    >
+                        <div
+                            className="input-group-addon"
+                        >
+                            <i
+                                className="fa fa-envelope"
+                            />
+                        </div>
+                        <input
+                            className="form-control"
+                            name="email"
+                            onChange={[Function]}
+                            placeholder="Email"
+                            type="text"
+                            value=""
+                        />
+                    </div>
+                </div>
+                <div
+                    className="form-group"
+                >
+                    <div
+                        className="input-group"
+                    >
+                        <div
+                            className="input-group-addon"
+                        >
+                            <i
+                                className="fa fa-lock"
+                            />
+                        </div>
+                        <input
+                            className="form-control"
+                            name="password"
+                            onChange={[Function]}
+                            placeholder="Password"
+                            type="password"
+                            value=""
+                        />
+                    </div>
+                </div>
+                <div
+                    className="buttonGroup"
+                >
+                    <div
+                        className="form-group buttonGroup"
+                    >
+                        <input
+                            className="signup btn btn-primary"
+                            type="submit"
+                            value="Signup"
+                        />
+                    </div>
+                </div>
+            </form>
+            <div>
+                <p
+                    className="signupRedirect"
+                >
+                    <Link
+                        replace={false}
+                        to="/login"
+                    >
+                        Have an account? Login Here
+                    </Link>
+                </p>
+            </div>
+            <div />
+        </div>
     </div>
-    <div />
 </div>,
   "nodes": Array [
     <div
-      className="container"
+      className="container "
 >
-      <h2
-            className="header"
-      >
-            SIGNUP
-      </h2>
-      <form
-            id="loginform"
-            onSubmit={[Function]}
+      <div
+            className="centeredContainer"
       >
             <div
-                  className="form-group"
-            >
-                  <input
-                        className="form-control"
-                        name="firstName"
-                        onChange={[Function]}
-                        placeholder="First Name"
-                        type="text"
-                        value={undefined}
-                  />
-            </div>
-            <div
-                  className="form-group"
-            >
-                  <input
-                        className="form-control"
-                        name="lastName"
-                        onChange={[Function]}
-                        placeholder="Last Name"
-                        type="text"
-                        value={undefined}
-                  />
-            </div>
-            <div
-                  className="form-group"
-            >
-                  <input
-                        className="form-control"
-                        name="email"
-                        onChange={[Function]}
-                        placeholder="Email"
-                        type="text"
-                        value=""
-                  />
-            </div>
-            <div
-                  className="form-group"
-            >
-                  <input
-                        className="form-control"
-                        name="password"
-                        onChange={[Function]}
-                        placeholder="Password"
-                        type="password"
-                        value=""
-                  />
-            </div>
-            <div
-                  className="buttonGroup"
+                  className="borderBox "
             >
                   <div
-                        className="form-group buttonGroup"
+                        className="loginFormHeader"
                   >
-                        <input
-                              className="btn btn-primary"
-                              type="submit"
-                              value="Signup"
-                        />
+                        <div
+                              className="loginIcon"
+                        >
+                              <i
+                                    className="fa fa-shield fa-5x"
+                              />
+                        </div>
                   </div>
-            </div>
-      </form>
-      <div>
-            <p
-                  className="signupRedirect"
-            >
-                  <Link
-                        replace={false}
-                        to="/login"
+                  <form
+                        id="loginform"
+                        onSubmit={[Function]}
                   >
-                        Have an account? Login Here
-                  </Link>
-            </p>
+                        <div
+                              className="form-group"
+                        >
+                              <div
+                                    className="input-group"
+                              >
+                                    <div
+                                          className="input-group-addon"
+                                    >
+                                          <i
+                                                className="fa fa-user"
+                                          />
+                                    </div>
+                                    <input
+                                          className="form-control"
+                                          name="firstName"
+                                          onChange={[Function]}
+                                          placeholder="First Name"
+                                          type="text"
+                                          value={undefined}
+                                    />
+                              </div>
+                        </div>
+                        <div
+                              className="form-group"
+                        >
+                              <div
+                                    className="input-group"
+                              >
+                                    <div
+                                          className="input-group-addon"
+                                    >
+                                          <i
+                                                className="fa fa-user"
+                                          />
+                                    </div>
+                                    <input
+                                          className="form-control"
+                                          name="lastName"
+                                          onChange={[Function]}
+                                          placeholder="Last Name"
+                                          type="text"
+                                          value={undefined}
+                                    />
+                              </div>
+                        </div>
+                        <div
+                              className="form-group"
+                        >
+                              <div
+                                    className="input-group"
+                              >
+                                    <div
+                                          className="input-group-addon"
+                                    >
+                                          <i
+                                                className="fa fa-envelope"
+                                          />
+                                    </div>
+                                    <input
+                                          className="form-control"
+                                          name="email"
+                                          onChange={[Function]}
+                                          placeholder="Email"
+                                          type="text"
+                                          value=""
+                                    />
+                              </div>
+                        </div>
+                        <div
+                              className="form-group"
+                        >
+                              <div
+                                    className="input-group"
+                              >
+                                    <div
+                                          className="input-group-addon"
+                                    >
+                                          <i
+                                                className="fa fa-lock"
+                                          />
+                                    </div>
+                                    <input
+                                          className="form-control"
+                                          name="password"
+                                          onChange={[Function]}
+                                          placeholder="Password"
+                                          type="password"
+                                          value=""
+                                    />
+                              </div>
+                        </div>
+                        <div
+                              className="buttonGroup"
+                        >
+                              <div
+                                    className="form-group buttonGroup"
+                              >
+                                    <input
+                                          className="signup btn btn-primary"
+                                          type="submit"
+                                          value="Signup"
+                                    />
+                              </div>
+                        </div>
+                  </form>
+                  <div>
+                        <p
+                              className="signupRedirect"
+                        >
+                              <Link
+                                    replace={false}
+                                    to="/login"
+                              >
+                                    Have an account? Login Here
+                              </Link>
+                        </p>
+                  </div>
+                  <div />
+            </div>
       </div>
-      <div />
 </div>,
   ],
   "options": Object {},
@@ -199,7 +315,7 @@ ShallowWrapper {
         handleSubmit={[Function]}
         password=""
 />,
-      "_debugID": 24,
+      "_debugID": 40,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": StatelessComponent {
@@ -233,181 +349,297 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div
-          className="container"
+          className="container "
 >
-          <h2
-                    className="header"
-          >
-                    SIGNUP
-          </h2>
-          <form
-                    id="loginform"
-                    onSubmit={[Function]}
+          <div
+                    className="centeredContainer"
           >
                     <div
-                              className="form-group"
-                    >
-                              <input
-                                        className="form-control"
-                                        name="firstName"
-                                        onChange={[Function]}
-                                        placeholder="First Name"
-                                        type="text"
-                                        value={undefined}
-                              />
-                    </div>
-                    <div
-                              className="form-group"
-                    >
-                              <input
-                                        className="form-control"
-                                        name="lastName"
-                                        onChange={[Function]}
-                                        placeholder="Last Name"
-                                        type="text"
-                                        value={undefined}
-                              />
-                    </div>
-                    <div
-                              className="form-group"
-                    >
-                              <input
-                                        className="form-control"
-                                        name="email"
-                                        onChange={[Function]}
-                                        placeholder="Email"
-                                        type="text"
-                                        value=""
-                              />
-                    </div>
-                    <div
-                              className="form-group"
-                    >
-                              <input
-                                        className="form-control"
-                                        name="password"
-                                        onChange={[Function]}
-                                        placeholder="Password"
-                                        type="password"
-                                        value=""
-                              />
-                    </div>
-                    <div
-                              className="buttonGroup"
+                              className="borderBox "
                     >
                               <div
-                                        className="form-group buttonGroup"
+                                        className="loginFormHeader"
                               >
-                                        <input
-                                                  className="btn btn-primary"
-                                                  type="submit"
-                                                  value="Signup"
-                                        />
+                                        <div
+                                                  className="loginIcon"
+                                        >
+                                                  <i
+                                                            className="fa fa-shield fa-5x"
+                                                  />
+                                        </div>
                               </div>
-                    </div>
-          </form>
-          <div>
-                    <p
-                              className="signupRedirect"
-                    >
-                              <Link
-                                        replace={false}
-                                        to="/login"
+                              <form
+                                        id="loginform"
+                                        onSubmit={[Function]}
                               >
-                                        Have an account? Login Here
-                              </Link>
-                    </p>
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <div
+                                                            className="input-group"
+                                                  >
+                                                            <div
+                                                                      className="input-group-addon"
+                                                            >
+                                                                      <i
+                                                                                className="fa fa-user"
+                                                                      />
+                                                            </div>
+                                                            <input
+                                                                      className="form-control"
+                                                                      name="firstName"
+                                                                      onChange={[Function]}
+                                                                      placeholder="First Name"
+                                                                      type="text"
+                                                                      value={undefined}
+                                                            />
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <div
+                                                            className="input-group"
+                                                  >
+                                                            <div
+                                                                      className="input-group-addon"
+                                                            >
+                                                                      <i
+                                                                                className="fa fa-user"
+                                                                      />
+                                                            </div>
+                                                            <input
+                                                                      className="form-control"
+                                                                      name="lastName"
+                                                                      onChange={[Function]}
+                                                                      placeholder="Last Name"
+                                                                      type="text"
+                                                                      value={undefined}
+                                                            />
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <div
+                                                            className="input-group"
+                                                  >
+                                                            <div
+                                                                      className="input-group-addon"
+                                                            >
+                                                                      <i
+                                                                                className="fa fa-envelope"
+                                                                      />
+                                                            </div>
+                                                            <input
+                                                                      className="form-control"
+                                                                      name="email"
+                                                                      onChange={[Function]}
+                                                                      placeholder="Email"
+                                                                      type="text"
+                                                                      value=""
+                                                            />
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <div
+                                                            className="input-group"
+                                                  >
+                                                            <div
+                                                                      className="input-group-addon"
+                                                            >
+                                                                      <i
+                                                                                className="fa fa-lock"
+                                                                      />
+                                                            </div>
+                                                            <input
+                                                                      className="form-control"
+                                                                      name="password"
+                                                                      onChange={[Function]}
+                                                                      placeholder="Password"
+                                                                      type="password"
+                                                                      value=""
+                                                            />
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="buttonGroup"
+                                        >
+                                                  <div
+                                                            className="form-group buttonGroup"
+                                                  >
+                                                            <input
+                                                                      className="signup btn btn-primary"
+                                                                      type="submit"
+                                                                      value="Signup"
+                                                            />
+                                                  </div>
+                                        </div>
+                              </form>
+                              <div>
+                                        <p
+                                                  className="signupRedirect"
+                                        >
+                                                  <Link
+                                                            replace={false}
+                                                            to="/login"
+                                                  >
+                                                            Have an account? Login Here
+                                                  </Link>
+                                        </p>
+                              </div>
+                              <div />
+                    </div>
           </div>
-          <div />
 </div>,
-        "_debugID": 25,
+        "_debugID": 41,
         "_renderedOutput": <div
-          className="container"
+          className="container "
 >
-          <h2
-                    className="header"
-          >
-                    SIGNUP
-          </h2>
-          <form
-                    id="loginform"
-                    onSubmit={[Function]}
+          <div
+                    className="centeredContainer"
           >
                     <div
-                              className="form-group"
-                    >
-                              <input
-                                        className="form-control"
-                                        name="firstName"
-                                        onChange={[Function]}
-                                        placeholder="First Name"
-                                        type="text"
-                                        value={undefined}
-                              />
-                    </div>
-                    <div
-                              className="form-group"
-                    >
-                              <input
-                                        className="form-control"
-                                        name="lastName"
-                                        onChange={[Function]}
-                                        placeholder="Last Name"
-                                        type="text"
-                                        value={undefined}
-                              />
-                    </div>
-                    <div
-                              className="form-group"
-                    >
-                              <input
-                                        className="form-control"
-                                        name="email"
-                                        onChange={[Function]}
-                                        placeholder="Email"
-                                        type="text"
-                                        value=""
-                              />
-                    </div>
-                    <div
-                              className="form-group"
-                    >
-                              <input
-                                        className="form-control"
-                                        name="password"
-                                        onChange={[Function]}
-                                        placeholder="Password"
-                                        type="password"
-                                        value=""
-                              />
-                    </div>
-                    <div
-                              className="buttonGroup"
+                              className="borderBox "
                     >
                               <div
-                                        className="form-group buttonGroup"
+                                        className="loginFormHeader"
                               >
-                                        <input
-                                                  className="btn btn-primary"
-                                                  type="submit"
-                                                  value="Signup"
-                                        />
+                                        <div
+                                                  className="loginIcon"
+                                        >
+                                                  <i
+                                                            className="fa fa-shield fa-5x"
+                                                  />
+                                        </div>
                               </div>
-                    </div>
-          </form>
-          <div>
-                    <p
-                              className="signupRedirect"
-                    >
-                              <Link
-                                        replace={false}
-                                        to="/login"
+                              <form
+                                        id="loginform"
+                                        onSubmit={[Function]}
                               >
-                                        Have an account? Login Here
-                              </Link>
-                    </p>
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <div
+                                                            className="input-group"
+                                                  >
+                                                            <div
+                                                                      className="input-group-addon"
+                                                            >
+                                                                      <i
+                                                                                className="fa fa-user"
+                                                                      />
+                                                            </div>
+                                                            <input
+                                                                      className="form-control"
+                                                                      name="firstName"
+                                                                      onChange={[Function]}
+                                                                      placeholder="First Name"
+                                                                      type="text"
+                                                                      value={undefined}
+                                                            />
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <div
+                                                            className="input-group"
+                                                  >
+                                                            <div
+                                                                      className="input-group-addon"
+                                                            >
+                                                                      <i
+                                                                                className="fa fa-user"
+                                                                      />
+                                                            </div>
+                                                            <input
+                                                                      className="form-control"
+                                                                      name="lastName"
+                                                                      onChange={[Function]}
+                                                                      placeholder="Last Name"
+                                                                      type="text"
+                                                                      value={undefined}
+                                                            />
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <div
+                                                            className="input-group"
+                                                  >
+                                                            <div
+                                                                      className="input-group-addon"
+                                                            >
+                                                                      <i
+                                                                                className="fa fa-envelope"
+                                                                      />
+                                                            </div>
+                                                            <input
+                                                                      className="form-control"
+                                                                      name="email"
+                                                                      onChange={[Function]}
+                                                                      placeholder="Email"
+                                                                      type="text"
+                                                                      value=""
+                                                            />
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="form-group"
+                                        >
+                                                  <div
+                                                            className="input-group"
+                                                  >
+                                                            <div
+                                                                      className="input-group-addon"
+                                                            >
+                                                                      <i
+                                                                                className="fa fa-lock"
+                                                                      />
+                                                            </div>
+                                                            <input
+                                                                      className="form-control"
+                                                                      name="password"
+                                                                      onChange={[Function]}
+                                                                      placeholder="Password"
+                                                                      type="password"
+                                                                      value=""
+                                                            />
+                                                  </div>
+                                        </div>
+                                        <div
+                                                  className="buttonGroup"
+                                        >
+                                                  <div
+                                                            className="form-group buttonGroup"
+                                                  >
+                                                            <input
+                                                                      className="signup btn btn-primary"
+                                                                      type="submit"
+                                                                      value="Signup"
+                                                            />
+                                                  </div>
+                                        </div>
+                              </form>
+                              <div>
+                                        <p
+                                                  className="signupRedirect"
+                                        >
+                                                  <Link
+                                                            replace={false}
+                                                            to="/login"
+                                                  >
+                                                            Have an account? Login Here
+                                                  </Link>
+                                        </p>
+                              </div>
+                              <div />
+                    </div>
           </div>
-          <div />
 </div>,
       },
       "_renderedNodeType": 0,
